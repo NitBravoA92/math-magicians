@@ -2,7 +2,7 @@ import './Calculator.css';
 import { NumberButton } from './NumberButton';
 import { OperatorButton } from './OperatorButton';
 
-function Calculator() {
+export function Calculator() {
   return(
     <section id="calculator-app">
       <div className="display-result">
@@ -13,7 +13,7 @@ function Calculator() {
         <OperatorButton name="AC" classes={['btn-gray']} />
         <OperatorButton name="+/-" classes={['btn-gray']} />
         <OperatorButton name="%" classes={['btn-gray']} />
-        <OperatorButton name="/" classes={['btn-orange']} />
+        <OperatorButton name="÷" classes={['btn-orange']} />
         <NumberButton name="7" classes={['btn-gray']} />
         <NumberButton name="8" classes={['btn-gray']} />
         <NumberButton name="9" classes={['btn-gray']} />
@@ -33,5 +33,3 @@ function Calculator() {
     </section>
   );
 }
-
-export default Calculator;
