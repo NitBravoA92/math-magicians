@@ -1,0 +1,27 @@
+#calculator-app {
+  width: 450px;
+  border: none;
+  position: relative;
+  background-color: transparent;
+}
+
+.display-result {
+  background-color: gray;
+  padding: 0.8rem 0.4rem;
+  width: 100%;
+  min-height: 60px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-align: right;
+  color: #fff;
+}
+
+.previews-result {
+  font-size: 0.8em;
+}
+
+.final-result {
+  font-size: 1.2em;
+}
