@@ -3,6 +3,7 @@
   border: none;
   position: relative;
   background-color: transparent;
+  font-size: 18px;
 }
 
 .display-result {
@@ -10,7 +11,6 @@
   padding: 0.8rem 0.4rem;
   width: 100%;
   min-height: 60px;
-  font-size: 18px;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
@@ -23,5 +23,41 @@
 }
 
 .final-result {
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: minmax(50px, auto);
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1.3rem 1rem; 
+  border-bottom: 1px solid #d4d4d4;
+  font-size: 0.9em;
+}
+
+.btn-gray {
+  border-right: 1px solid #d4d4d4;
+  background-color: #eaeaea;
+}
+
+.btn-orange {
+  background-color: rgb(236, 137, 79);
+}
+
+.btn-gray:hover {
+  background-color: #d4d4d4;
+}
+
+.btn-orange:hover {
+  background-color: rgb(235, 121, 56);
+}
+
+.btn-zero {
+  grid-column: span 2;
 }
