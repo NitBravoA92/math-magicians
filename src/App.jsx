@@ -1,5 +1,4 @@
 import mathLogo from './mathLogo.gif';
-import './App.css';
 
 function App() {
   return (
