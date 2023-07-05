@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const NumberButton = ({ name, classes, interactivity }) => (<button type="button" onClick={ () => interactivity(name) } className={`btn ${classes.join(' ')}`}>{ name }</button>);
+const NumberButton = ({ name, classes, interactivity }) => (<button type="button" onClick={() => interactivity(name)} className={`btn ${classes.join(' ')}`}>{ name }</button>);
 
 NumberButton.propTypes = {
   name: PropTypes.string.isRequired,
