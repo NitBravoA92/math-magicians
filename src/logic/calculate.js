@@ -81,7 +81,11 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {};
+    return {
+      total: null,
+      next: '0',
+      operation: null,
+    };
   }
 
   if (buttonName === '+/-') {
