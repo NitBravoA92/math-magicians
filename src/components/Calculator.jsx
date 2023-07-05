@@ -1,12 +1,24 @@
+import { useState } from 'react';
+import calculate from '../logic/calculate';
 import './Calculator.css';
 import NumberButton from './NumberButton';
 import OperatorButton from './OperatorButton';
 
-const Calculator = () => (
+const Calculator = () => {
+
+  const initialData = {
+    total: '0',
+    next: null,
+    operation: null,
+  };
+
+  const [dataObj, setDataObj] = useState(initialData);
+
+  return(
   <section id="calculator-app">
     <div className="display-result">
-      <p className="previews-result"> </p>
-      <p className="final-result">0</p>
+      <p className="previews-result"></p>
+      <p className="final-result"></p>
     </div>
     <div className="buttons-container">
       <OperatorButton name="AC" classes={['btn-gray']} />
@@ -30,6 +42,6 @@ const Calculator = () => (
       <OperatorButton name="=" classes={['btn-orange']} />
     </div>
   </section>
-);
+)};
 
 export default Calculator;
