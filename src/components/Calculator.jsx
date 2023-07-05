@@ -25,25 +25,25 @@ const Calculator = () => {
       <p className="final-result"></p>
     </div>
     <div className="buttons-container">
-      <CalculatorButton name="AC" classes={['btn-gray']} />
-      <CalculatorButton name="+/-" classes={['btn-gray']} />
-      <CalculatorButton name="%" classes={['btn-gray']} />
-      <CalculatorButton name="÷" classes={['btn-orange']} />
-      <CalculatorButton name="7" classes={['btn-gray']} />
-      <CalculatorButton name="8" classes={['btn-gray']} />
-      <CalculatorButton name="9" classes={['btn-gray']} />
-      <CalculatorButton name="x" classes={['btn-orange']} />
-      <CalculatorButton name="4" classes={['btn-gray']} />
-      <CalculatorButton name="5" classes={['btn-gray']} />
-      <CalculatorButton name="6" classes={['btn-gray']} />
-      <CalculatorButton name="-" classes={['btn-orange']} />
-      <CalculatorButton name="1" classes={['btn-gray']} />
-      <CalculatorButton name="2" classes={['btn-gray']} />
-      <CalculatorButton name="3" classes={['btn-gray']} />
-      <CalculatorButton name="+" classes={['btn-orange']} />
-      <CalculatorButton name="0" classes={['btn-gray', 'btn-zero']} />
-      <CalculatorButton name="." classes={['btn-gray']} />
-      <CalculatorButton name="=" classes={['btn-orange']} />
+      <CalculatorButton name="AC" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="+/-" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="%" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="÷" classes={['btn-orange']} interactivity={operations} />
+      <CalculatorButton name="7" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="8" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="9" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="x" classes={['btn-orange']} interactivity={operations} />
+      <CalculatorButton name="4" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="5" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="6" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="-" classes={['btn-orange']} interactivity={operations} />
+      <CalculatorButton name="1" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="2" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="3" classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="+" classes={['btn-orange']} interactivity={operations} />
+      <CalculatorButton name="0" classes={['btn-gray', 'btn-zero']} interactivity={operations} />
+      <CalculatorButton name="." classes={['btn-gray']} interactivity={operations} />
+      <CalculatorButton name="=" classes={['btn-orange']} interactivity={operations} />
     </div>
   </section>
 )};
