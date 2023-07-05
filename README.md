@@ -162,10 +162,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Build the math calculator component with basic maths operations**
+- [x] **Create the UI of the Calculator component**
+- [ ] **Create the Calculator component basic functionality**
 - [ ] **Create the Home page to show the main information about the webapp**
-- [ ] **Create the Calculator page to show the Calculator app**
+- [ ] **Create the Calculator page to show the Calculator component**
 - [ ] **Create the Quote page to show some Maths quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

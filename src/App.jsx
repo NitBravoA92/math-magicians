@@ -1,15 +1,11 @@
-import mathLogo from './mathLogo.gif';
+import Calculator from './components/Calculator';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={mathLogo} className="App-logo" alt="logo" />
-        <h1>
-          Math Magicians!
-        </h1>
-      </header>
+      <h1>Math Magicians</h1>
+      <Calculator />
     </div>
   );
 }
