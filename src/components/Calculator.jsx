@@ -14,6 +14,11 @@ const Calculator = () => {
 
   const [dataObj, setDataObj] = useState(initialData);
 
+  const operations = (buttonName) => {
+    const calOperation = calculate(dataObj, buttonName);
+    setDataObj(calOperation);
+  };
+
   return(
   <section id="calculator-app">
     <div className="display-result">
