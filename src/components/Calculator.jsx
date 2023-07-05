@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 import './Calculator.css';
-import NumberButton from './NumberButton';
+import CalculatorButton from './CalculatorButton';
 
 const Calculator = () => {
 
@@ -25,25 +25,25 @@ const Calculator = () => {
       <p className="final-result"></p>
     </div>
     <div className="buttons-container">
-      <NumberButton name="AC" classes={['btn-gray']} />
-      <NumberButton name="+/-" classes={['btn-gray']} />
-      <NumberButton name="%" classes={['btn-gray']} />
-      <NumberButton name="÷" classes={['btn-orange']} />
-      <NumberButton name="7" classes={['btn-gray']} />
-      <NumberButton name="8" classes={['btn-gray']} />
-      <NumberButton name="9" classes={['btn-gray']} />
-      <NumberButton name="x" classes={['btn-orange']} />
-      <NumberButton name="4" classes={['btn-gray']} />
-      <NumberButton name="5" classes={['btn-gray']} />
-      <NumberButton name="6" classes={['btn-gray']} />
-      <NumberButton name="-" classes={['btn-orange']} />
-      <NumberButton name="1" classes={['btn-gray']} />
-      <NumberButton name="2" classes={['btn-gray']} />
-      <NumberButton name="3" classes={['btn-gray']} />
-      <NumberButton name="+" classes={['btn-orange']} />
-      <NumberButton name="0" classes={['btn-gray', 'btn-zero']} />
-      <NumberButton name="." classes={['btn-gray']} />
-      <NumberButton name="=" classes={['btn-orange']} />
+      <CalculatorButton name="AC" classes={['btn-gray']} />
+      <CalculatorButton name="+/-" classes={['btn-gray']} />
+      <CalculatorButton name="%" classes={['btn-gray']} />
+      <CalculatorButton name="÷" classes={['btn-orange']} />
+      <CalculatorButton name="7" classes={['btn-gray']} />
+      <CalculatorButton name="8" classes={['btn-gray']} />
+      <CalculatorButton name="9" classes={['btn-gray']} />
+      <CalculatorButton name="x" classes={['btn-orange']} />
+      <CalculatorButton name="4" classes={['btn-gray']} />
+      <CalculatorButton name="5" classes={['btn-gray']} />
+      <CalculatorButton name="6" classes={['btn-gray']} />
+      <CalculatorButton name="-" classes={['btn-orange']} />
+      <CalculatorButton name="1" classes={['btn-gray']} />
+      <CalculatorButton name="2" classes={['btn-gray']} />
+      <CalculatorButton name="3" classes={['btn-gray']} />
+      <CalculatorButton name="+" classes={['btn-orange']} />
+      <CalculatorButton name="0" classes={['btn-gray', 'btn-zero']} />
+      <CalculatorButton name="." classes={['btn-gray']} />
+      <CalculatorButton name="=" classes={['btn-orange']} />
     </div>
   </section>
 )};
