@@ -22,7 +22,7 @@ const Calculator = () => {
   <section id="calculator-app">
     <div className="display-result">
       <p className="previews-result"></p>
-      <p className="final-result"></p>
+      <p className="final-result">{`${dataObj.total || ''} ${dataObj.operation || ''} ${dataObj.next || ''} `}</p>
     </div>
     <div className="buttons-container">
       <CalculatorButton name="AC" classes={['btn-gray']} interactivity={operations} />
