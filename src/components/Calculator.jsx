@@ -6,8 +6,8 @@ import CalculatorButton from './CalculatorButton';
 const Calculator = () => {
 
   const initialData = {
-    total: '0',
-    next: null,
+    total: null,
+    next: '0',
     operation: null,
   };
 
