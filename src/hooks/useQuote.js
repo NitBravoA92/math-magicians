@@ -7,6 +7,38 @@ const useQuote = (initialState) => {
     error: null,
   });
 
+  const getQuote = async () => {
+    const options = {
+      method: "GET",
+      headers: {
+        "X-Api-Key": "suyXArl0QxwZhSpQnumKzQ==NWZw3xiMxfy6yrAb",
+      },
+    };
+
+    const response = await fetch(
+      "https://api.api-ninjas.com/v1/quotes?category=computers&limit=1",
+      options
+    );
+    
+    if(!response.ok) {
+      setDataQuote({ 
+        loading: false,
+        data: null,
+        error: 'Error in the request for a Quote!', 
+      });
+      return;
+    }
+
+    const [ dataResp ] = await response.json();
+    const { quote, author } = dataResp;
+
+    setDataQuote({ 
+      loading: false,
+      data: { quote, author },
+      error: null, 
+    });
+  };
+
   return dataQuote;
 };
 
