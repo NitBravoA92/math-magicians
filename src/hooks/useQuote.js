@@ -17,28 +17,27 @@ const useQuote = (initialState) => {
       },
     };
 
-    const response = await fetch(
-      'https://api.api-ninjas.com/v1/quotes?category=computers&limit=1',
-      options,
-    );
+    try {
+      const response = await fetch(
+        'https://api.api-ninjas.com/v1/quotes?category=computers&limit=1',
+        options,
+      );
 
-    if (!response.ok) {
+      const [dataResp] = await response.json();
+      const { quote, author } = dataResp;
+
+      setDataQuote({
+        loading: false,
+        data: { quote, author },
+        error: null,
+      });
+    } catch (error) {
       setDataQuote({
         loading: false,
         data: null,
-        error: 'Error in the request for a Quote!',
+        error: error.message,
       });
-      return;
     }
-
-    const [dataResp] = await response.json();
-    const { quote, author } = dataResp;
-
-    setDataQuote({
-      loading: false,
-      data: { quote, author },
-      error: null,
-    });
   };
 
   useEffect(() => {
