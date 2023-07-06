@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const useQuote = (initialState) => {
   const [dataQuote, setDataQuote] = useState({
@@ -6,6 +6,8 @@ const useQuote = (initialState) => {
     data: initialState,
     error: null,
   });
+
+  const abortController = new AbortController();
 
   const getQuote = async () => {
     const options = {
@@ -38,6 +40,14 @@ const useQuote = (initialState) => {
       error: null, 
     });
   };
+
+  useEffect(() => { getQuote(); }, []);
+
+  useEffect(() => {
+    return () => {
+      abortController.abort();
+    };
+  }, [dataQuote]);
 
   return dataQuote;
 };
