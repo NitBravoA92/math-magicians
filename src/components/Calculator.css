@@ -12,17 +12,13 @@
   width: 100%;
   min-height: 60px;
   display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  align-items: center;
   text-align: right;
   color: #fff;
 }
 
-.previews-result {
-  font-size: 0.8em;
-}
-
 .final-result {
+  width: 100%;
   font-size: 1.3em;
 }
 
