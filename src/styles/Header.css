@@ -1,0 +1,87 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: whitesmoke;
+  padding: 0.5rem 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.App-logo {
+  width: 60px;
+}
+
+.logo-title {
+  font-size: 1.8em;
+  font-weight: 900;
+  color: #121111;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#menu .nav-item a {
+  font-size: 1em;
+  color: #121111;
+  padding: 0.8rem 0.6rem;
+  position: relative;
+}
+
+#menu .nav-item a.active {
+  color: #f50057;
+}
+
+#menu .nav-item a:hover {
+  color: #f50057;
+}
+
+#menu .nav-item:nth-child(2) a::before,
+#menu .nav-item:nth-child(2) a::after {
+  content: "";
+  width: 2px;
+  height: 95%;
+  background-color: #f50057;
+  position: absolute;
+  top: 0;
+}
+
+#menu .nav-item:nth-child(2) a::before {
+  left: 0;
+}
+
+#menu .nav-item:nth-child(2) a::after {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-title {
+    font-size: 2.5em;
+  }
+
+  #menu {
+    height: 40px;
+    align-items: flex-end;
+  }
+}
