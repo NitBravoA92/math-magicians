@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -14,6 +16,7 @@ body {
   color: #121111;
   font-style: normal;
   font-weight: 400;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
