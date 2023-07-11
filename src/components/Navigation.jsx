@@ -1,14 +1,11 @@
 import NavigationLink from './NavigationLink';
-import routesList from '../routes/routesList';
 
 const Navigation = () => (
   <nav>
     <ul id="menu">
-      {
-        routesList.map(({ index, title, route }) => (
-          <NavigationLink title={title} route={route} key={index} />
-        ))
-      }
+      <NavigationLink title="Home" route="/" key={1} />
+      <NavigationLink title="Calculator" route="/calculator" key={2} />
+      <NavigationLink title="Quote" route="/quote" key={3} />
     </ul>
   </nav>
 );
