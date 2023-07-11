@@ -1,9 +1,9 @@
 import mathLogo from '../mathLogo.gif';
 const Logo = () => (
-  <div id="logo-container">
+  <a href='/' id="logo-container">
     <img src={mathLogo} className="App-logo" alt="logo" />
-    <h1 id="main-title">Math Magicians</h1>
-  </div>
+    <span id="main-title">Math Magicians</span>
+  </a>
 );
 
 export default Logo;
