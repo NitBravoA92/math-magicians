@@ -1,17 +1,16 @@
 import NavigationLink from './NavigationLink';
 import routesList from '../routes/routesList';
 
-const Navigation = () => {
-  
-  return (
-    <nav>
-      <ul id="menu">
-        {
-          routesList.map((link, index) => <NavigationLink { ...link } key={index + 1} />)
-        }
-      </ul>
-    </nav>
-  );
-}
+const Navigation = () => (
+  <nav>
+    <ul id="menu">
+      {
+        routesList.map(({ index, title, route }) => (
+          <NavigationLink title={title} route={route} key={index} />
+        ))
+      }
+    </ul>
+  </nav>
+);
 
 export default Navigation;

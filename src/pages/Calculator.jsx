@@ -3,9 +3,9 @@ import CalculatorApp from '../components/CalculatorApp';
 
 const Calculator = () => (
   <Layout>
-    <section id='calculator' className='d-column'>
-      <h1 className='page-title'>Let's do some math!</h1>
-      <div className='page-content'>
+    <section id="calculator" className="d-column">
+      <h1 className="page-title">Let&apos;s do some math!</h1>
+      <div className="page-content">
         <CalculatorApp />
       </div>
     </section>

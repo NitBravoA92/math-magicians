@@ -3,8 +3,8 @@ import QuoteItem from '../components/QuoteItem';
 
 const Quote = () => (
   <Layout>
-    <section id='quote'>
-      <div className='page-content'>
+    <section id="quote">
+      <div className="page-content">
         <QuoteItem />
       </div>
     </section>

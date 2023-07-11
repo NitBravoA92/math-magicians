@@ -1,16 +1,19 @@
 const routesList = [
   {
-    title: "Home",
-    route: "/"
+    index: 1,
+    title: 'Home',
+    route: '/',
   },
   {
-    title: "Calculator",
-    route: "/calculator"
+    index: 2,
+    title: 'Calculator',
+    route: '/calculator',
   },
   {
-    title: "Quote",
-    route: "/quote"
-  }
+    index: 3,
+    title: 'Quote',
+    route: '/quote',
+  },
 ];
 
 export default routesList;
