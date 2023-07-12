@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Navigation component renders correctly into the DOM 1`] = `
+<nav>
+  <ul
+    id="menu"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        href="/calculator"
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        href="/quote"
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
