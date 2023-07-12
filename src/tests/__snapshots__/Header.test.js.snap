@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header component renders correctly into the DOM 1`] = `
+<header>
+  <a
+    className="logo-container"
+    href="/"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="mathLogo.gif"
+    />
+    <span
+      className="logo-title"
+    >
+      Math Magicians
+    </span>
+  </a>
+  <nav>
+    <ul
+      id="menu"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          href="/quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
