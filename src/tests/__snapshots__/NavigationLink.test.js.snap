@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The NavigationLink component renders correctly into the DOM 1`] = `
+<li
+  className="nav-item"
+>
+  <a
+    href="/calculator"
+  >
+    Calculator
+  </a>
+</li>
+`;
