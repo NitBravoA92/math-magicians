@@ -1,4 +1,5 @@
 import Layout from './Layout';
+import '../styles/Home.css';
 
 const Home = () => (
   <Layout>
