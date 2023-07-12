@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
-import './Calculator.css';
 import CalculatorButton from './CalculatorButton';
 
-const Calculator = () => {
+const CalculatorApp = () => {
   const initialData = {
     total: null,
     next: '0',
@@ -47,4 +46,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default CalculatorApp;

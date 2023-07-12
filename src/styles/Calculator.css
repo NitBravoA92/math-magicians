@@ -1,9 +1,16 @@
+#calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #calculator-app {
-  width: 450px;
+  width: 100%;
   border: none;
   position: relative;
   background-color: transparent;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 .display-result {
@@ -20,11 +27,13 @@
 .final-result {
   width: 100%;
   font-size: 1.3em;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .buttons-container {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 87px);
 }
 
 .btn {
@@ -55,4 +64,20 @@
 
 .btn-zero {
   grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  #calculator {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  #calculator-app {
+    width: 450px;
+  }
+
+  .buttons-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

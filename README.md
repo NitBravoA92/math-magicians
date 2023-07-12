@@ -16,7 +16,6 @@
     - [Prerequisites](#prerequisites)
     - [Install](#install)
     - [Usage](#usage)
-    - [Testing](#testing)
     - [Build](#build)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -37,21 +36,22 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://es.react.dev">ReactJS</a></li>
+    <li><a href="https://reactrouter.com/en/main">React Router</a></li>
     <li><a href="https://nodejs.org">Node.js</a></li>
     <li><a href="https://create-react-app.dev">Create React App</a></li>
     <li><a href="https://stylelint.io/">Stylelint.io</a></li>
     <li><a href="https://eslint.org/">ESlint.org</a></li>
-    <li><a href="https://jestjs.io/docs/getting-started">Jest</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 - **Using the ReactJS library**
+- **Using the ReactJS Router library**
 - **Using JSX syntax**
 - **Use of semantic HTML**
 - **SPA Approach**
-- **Unit test with jest**
+- **Responsive Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,16 +125,6 @@ Javascript Linter
   npx eslint "**/*.{js,jsx}"
 ```
 
-### Testing
-
-To test the `App` Component, you can run the following command in the project directory:
-
-- `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See more about these tests: [running tests](https://facebook.github.io/create-react-app/docs/running-tests) 
-
-
 ### Build
 
 - `npm run build`
@@ -164,9 +154,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## 🔭 Future Features <a name="future-features"></a>
 - [x] **Create the UI of the Calculator component**
 - [x] **Create the Calculator component basic functionality**
-- [ ] **Create the Home page to show the main information about the webapp**
-- [ ] **Create the Calculator page to show the Calculator component**
-- [ ] **Create the Quote page to show some Maths quotes**
+- [x] **Create the Home page to show the main information about the webapp**
+- [x] **Create the Calculator page to show the Calculator component**
+- [x] **Create the Quote page to show some Maths quotes**
+- [x] **Create Unit Tests to validate the operation of the application components**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
