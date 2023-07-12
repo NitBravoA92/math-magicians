@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The CalculatorButton component renders correctly into the DOM 1`] = `
+<button
+  className="btn btn-gray"
+  onClick={[Function]}
+  type="button"
+>
+  5
+</button>
+`;
