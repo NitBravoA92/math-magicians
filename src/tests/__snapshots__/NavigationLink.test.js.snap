@@ -5,7 +5,9 @@ exports[`The NavigationLink component renders correctly into the DOM 1`] = `
   className="nav-item"
 >
   <a
+    className={null}
     href="/calculator"
+    onClick={[Function]}
   >
     Calculator
   </a>

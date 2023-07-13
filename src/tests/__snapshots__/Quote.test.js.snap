@@ -26,7 +26,10 @@ Array [
           className="nav-item"
         >
           <a
+            aria-current="page"
+            className="active"
             href="/"
+            onClick={[Function]}
           >
             Home
           </a>
@@ -35,7 +38,9 @@ Array [
           className="nav-item"
         >
           <a
+            className={null}
             href="/calculator"
+            onClick={[Function]}
           >
             Calculator
           </a>
@@ -44,7 +49,9 @@ Array [
           className="nav-item"
         >
           <a
+            className={null}
             href="/quote"
+            onClick={[Function]}
           >
             Quote
           </a>

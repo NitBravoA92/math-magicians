@@ -1,54 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`The Header component renders correctly into the DOM 1`] = `
-<header>
-  <a
-    className="logo-container"
-    href="/"
-  >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="mathLogo.gif"
-    />
-    <span
-      className="logo-title"
+Array [
+  <header>
+    <a
+      className="logo-container"
+      href="/"
     >
-      Math Magicians
-    </span>
-  </a>
-  <nav>
-    <ul
-      id="menu"
-    >
-      <li
-        className="nav-item"
+      <img
+        alt="logo"
+        className="App-logo"
+        src="mathLogo.gif"
+      />
+      <span
+        className="logo-title"
       >
-        <a
-          href="/"
-        >
-          Home
-        </a>
-      </li>
-      <li
-        className="nav-item"
+        Math Magicians
+      </span>
+    </a>
+    <nav>
+      <ul
+        id="menu"
       >
-        <a
-          href="/calculator"
+        <li
+          className="nav-item"
         >
-          Calculator
-        </a>
-      </li>
-      <li
-        className="nav-item"
-      >
-        <a
-          href="/quote"
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
         >
-          Quote
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
+          <a
+            className={null}
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className={null}
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  ",",
+]
 `;

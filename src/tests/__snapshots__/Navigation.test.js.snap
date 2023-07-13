@@ -9,7 +9,10 @@ exports[`The Navigation component renders correctly into the DOM 1`] = `
       className="nav-item"
     >
       <a
+        aria-current="page"
+        className="active"
         href="/"
+        onClick={[Function]}
       >
         Home
       </a>
@@ -18,7 +21,9 @@ exports[`The Navigation component renders correctly into the DOM 1`] = `
       className="nav-item"
     >
       <a
+        className={null}
         href="/calculator"
+        onClick={[Function]}
       >
         Calculator
       </a>
@@ -27,7 +32,9 @@ exports[`The Navigation component renders correctly into the DOM 1`] = `
       className="nav-item"
     >
       <a
+        className={null}
         href="/quote"
+        onClick={[Function]}
       >
         Quote
       </a>
