@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Home component renders correctly into the DOM 1`] = `
+Array [
+  <header>
+    <a
+      className="logo-container"
+      href="/"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="mathLogo.gif"
+      />
+      <span
+        className="logo-title"
+      >
+        Math Magicians
+      </span>
+    </a>
+    <nav>
+      <ul
+        id="menu"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            href="/calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            href="/quote"
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  <main>
+    <section
+      id="home"
+    >
+      <h1
+        className="page-title"
+      >
+        Welcome to our page!
+      </h1>
+      <div
+        className="page-content"
+      >
+        <p
+          className="home-info"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus.
+        </p>
+        <p
+          className="home-info"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure amet architecto hic vel quia repellat recusandae nulla, tempora quo ea velit pariatur autem necessitatibus eius consequuntur porro quae delectus.
+        </p>
+      </div>
+    </section>
+  </main>,
+]
+`;
