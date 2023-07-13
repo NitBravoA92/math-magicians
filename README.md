@@ -149,6 +149,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Twitter: [@softwareDevOne](https://twitter.com/softwareDevOne)
 - LinkedIn: [Nitcelis Bravo Alcala](https://www.linkedin.com/in/nitcelis-bravo-alcala-b65340158)
 
+👤 **Reza Merzaie**
+
+- GitHub: [Reza Merzaie](https://github.com/Gh-Reza)
+- LinkedIn: [Reza Merzaie](https://www.linkedin.com/in/reza-merzaie-b94368202/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
