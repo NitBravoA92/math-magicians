@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
-import { render } from "@testing-library/react";
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Quote from "../pages/Quote";
+import Quote from '../pages/Quote';
 
-describe("The Quote component", () => {
-
-  test("renders correctly into the DOM", () => {
+describe('The Quote component', () => {
+  test('renders correctly into the DOM', () => {
     const component = renderer.create(<Quote />).toJSON();
 
     expect(component).toMatchSnapshot();
@@ -15,13 +14,13 @@ describe("The Quote component", () => {
   test("display the message 'Loading Quote...'", () => {
     const component = render(<Quote />);
 
-    expect(component.container).toHaveTextContent("Loading Quote...");
+    expect(component.container).toHaveTextContent('Loading Quote...');
   });
 
-  test("should render the QuoteItem component", () => {
+  test('should render the QuoteItem component', () => {
     const component = render(<Quote />);
 
-    const quoteContainer = component.container.querySelector("#display-quote");
+    const quoteContainer = component.container.querySelector('#display-quote');
 
     expect(quoteContainer).toBeInTheDocument();
   });
@@ -29,9 +28,8 @@ describe("The Quote component", () => {
   test("shouldn't display an error message in the first rendered", () => {
     const component = render(<Quote />);
 
-    const errorMessageContainer = component.container.querySelector("#error-message");
+    const errorMessageContainer = component.container.querySelector('#error-message');
 
-    expect(errorMessageContainer).toHaveClass("d-none");
+    expect(errorMessageContainer).toHaveClass('d-none');
   });
-
 });
