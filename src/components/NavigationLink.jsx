@@ -1,17 +1,24 @@
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-const linkStatus = ({ isActive, isPending }) => {
-  if (isPending) return 'pending';
-  if (isActive) return 'active';
-  return '';
-};
+const NavigationLink = ({ title, route }) => {
+  const activeStyle = ({ isActive, isPending }) => {
+    if (isActive) return 'active';
+    if (isPending) return 'pending';
+    return null;
+  };
 
-const NavigationLink = ({ title, route }) => (
-  <li className="nav-item">
-    <NavLink to={route} className={linkStatus}>{title}</NavLink>
-  </li>
-);
+  return (
+    <li className="nav-item">
+      <NavLink
+        to={route}
+        className={activeStyle}
+      >
+        {title}
+      </NavLink>
+    </li>
+  );
+};
 
 NavigationLink.propTypes = {
   title: PropTypes.string.isRequired,

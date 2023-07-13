@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import apiRequest from '../logic/apiRequest';
 
 const useQuote = (initialState) => {
   const [dataQuote, setDataQuote] = useState({
@@ -10,22 +11,8 @@ const useQuote = (initialState) => {
   const [renderState, setRenderState] = useState(false);
 
   const getQuote = async () => {
-    const options = {
-      method: 'GET',
-      headers: {
-        'X-Api-Key': 'suyXArl0QxwZhSpQnumKzQ==NWZw3xiMxfy6yrAb',
-      },
-    };
-
     try {
-      const response = await fetch(
-        'https://api.api-ninjas.com/v1/quotes?category=computers&limit=1',
-        options,
-      );
-
-      const [dataResp] = await response.json();
-      const { quote, author } = dataResp;
-
+      const { quote, author } = await apiRequest();
       setDataQuote({
         loading: false,
         data: { quote, author },
