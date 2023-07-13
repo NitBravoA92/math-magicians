@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The QuoteItem component renders correctly into the DOM 1`] = `
+<div
+  id="display-quote"
+>
+  <p
+    className="d-none"
+    id="quote-text"
+  >
+    <span
+      id="quote"
+    />
+    <span
+      id="author"
+    >
+       — 
+    </span>
+  </p>
+  <p
+    className=""
+    id="loading-message"
+  >
+    Loading Quote...
+  </p>
+  <p
+    className="d-none"
+    id="error-message"
+  />
+</div>
+`;
