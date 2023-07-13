@@ -11,6 +11,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Prerequisites](#prerequisites)
@@ -41,6 +42,8 @@
     <li><a href="https://create-react-app.dev">Create React App</a></li>
     <li><a href="https://stylelint.io/">Stylelint.io</a></li>
     <li><a href="https://eslint.org/">ESlint.org</a></li>
+    <li><a href="https://jestjs.io/docs/getting-started">Jest</a></li>
+    <li><a href="https://testing-library.com/docs/react-testing-library/intro/">React Testing Library</a></li>
   </ul>
 </details>
 
@@ -52,6 +55,16 @@
 - **Use of semantic HTML**
 - **SPA Approach**
 - **Responsive Design**
+- **Unit test with jest and React Testing Library**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### 🚀 Live Demo <a name="live-demo"></a>
+
+To see the application working live, you can click on the following link that contains the demo version:
+
+- [Math Magicians - Live Demo](https://mathmagicians-cg0t.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,6 +176,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [x] **Create the Calculator page to show the Calculator component**
 - [x] **Create the Quote page to show some Maths quotes**
 - [x] **Create Unit Tests to validate the operation of the application components**
+- [ ] **Improve UI design using TailwindCSS**
+- [ ] **Add custom informative texts in paragraphs**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
