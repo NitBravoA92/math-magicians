@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Logo component renders correctly into the DOM 1`] = `
+<a
+  className="logo-container"
+  href="/"
+>
+  <img
+    alt="logo"
+    className="App-logo"
+    src="mathLogo.gif"
+  />
+  <span
+    className="logo-title"
+  >
+    Math Magicians
+  </span>
+</a>
+`;
