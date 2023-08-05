@@ -64,7 +64,7 @@
 
 To see the application working live, you can click on the following link that contains the demo version:
 
-- [Math Magicians - Live Demo](https://mathmagicians-cg0t.onrender.com/)
+- [Math Magicians - Live Demo](https://math-magicians-app-z9yt.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
